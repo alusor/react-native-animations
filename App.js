@@ -9,6 +9,9 @@ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+       <View style={{ flex: 1, }}>
+          <Text>Hola</Text>
+       </View>
        <Tab></Tab>
       </View>
     );
